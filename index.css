@@ -1,0 +1,38 @@
+/*Smaller than 300px is red*/
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: darkred;}
+}
+
+/*Between 300px-768px is green*/
+@media only screen and (min-width:300px) and (max-width: 768px) {
+    body {
+        background-color: forestgreen;}
+.small{
+width: 66%
+}
+.large{
+width: 33%
+}
+/*Greater than 768px is blue*/
+@media only screen and (min-width: 768px) {
+    body {
+    background-color: deepskyblue;}
+
+
+.wrapper{
+width: 100%;
+border: 1px  black;
+}
+.small{
+width: 33%;
+float: left;
+}
+.medium{
+width: 33%;
+float: left;
+}
+.large{
+width: 33%;
+float:left;
+}}}
